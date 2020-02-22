@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, intial-sacle=1">
+		<title>SPCE CAFETERIA</title>
+	<link href="https://fonts.googleapis.com/css?family=Oxygen&display=swap" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<link rel="stylesheet"  href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<body>
+		<header>
+			<nav id="header-nav" class="navbar navbar-default">
+				<div class="container">
+					<div class="navbar-header" >
+						<a href="index.html" class="pull-left visible-md visible-lg">
+							<img height="100" width="100" src="download.jfif" id="logo-img" alt="logo">
+						</a>
+						<div class="navbar-brand">
+							<a href="index.html"><h1>SPCE CAFETERIA</h1></a>
+							<p>
+								<span>***BHAVANS CERTIFIED***</span>
+							</p>
+						</div>
+						<button type="button"  id="navbarToggle" class="navbar-toggle collapsed" data-toggle="collapse" 
+						data-target=" #collapseable-nav" aria-expanded="false" >
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<div id="collapseable-nav" class="collapse navbar-collapse">
+					<ul id="nav-list" class="nav navbar-nav navbar-right">
+						<li  id="navHomeButton" class="visible-xs active">
+							<a href="index.html">
+								<span class="glyphicon glyphicon-home"></span>Home</a>
+							</li>
+							<li id="navMenuButton">
+								<a href="menu.html">
+									<span class="glyphicon glyphicon-cutlery" aria-hidden="true"></span><br class="hidden-xs">Menu</a>
+								</li>
+								<li>
+									<a href="About.html">
+										<span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs">Contact us</a>
+									</li>
+									<li>
+										<a href="Awards.html">
+											<span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs">Our Story</a>
+										</li>
+										<li id="Phone" class="hidden-xs">
+											<a href="tel:9702604121">
+												<span>9702604121</span></a><div>*WE DELIVER*</div>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</nav>
+						</header>
+						<div class="call-btn">
+							<div class="visible-xs text-center">
+								<a class="btn" href="tel:9702604121" >
+									<span class="glyphicon glyphicon-earphone" ></span>9702604121
+								</a></div>
+								<div id="xs-deliver" class="text-center visible-xs">*WE DELIVER</div>
+							</div>
+							<div class="container">
+								<div class="text-center">
+									<div id="aa"><h2 >CHEFS RECOMMENDATION MENU</h2></div>
+								</div>
+								<div class="row">
+									<div class="col-md-6">
+										<div class="col-md-5">
+											<div class="special-tile">
+												<img src="app.jfif" height="200" width="200">
+											</div>
+										</div>
+										<div class="col-md-7">
+											<div class="special-name">
+												Chinese Scallion Pancake Wrap
+											</div>
+											<div class="special-des">
+												with choice of string bean, string bean chicken, string bean beef, beef onions, moo shu vegetable
+											</div>
+											<hr>
+											<div >
+												<span class="price">₹399</span>
+												<span>&nbsp;&nbsp;&nbsp;</span>
+												<button class="plus-btn"> <i  class="fa fa-plus " aria-hidden="true" style="color: #000"></i></button>
+												<input type="text" class="quantity" name="name" value="0" style="width: 10%; text-align: center;">
+												<button class="minus-btn"> <i class="fa fa-minus " aria-hidden="true"  style="color: #000"></i></button>
+												&nbsp;&nbsp;&nbsp;<span id="Chinese Scallion Pancake Wrap"><button name="0" class="atc" style="color: #000">ADD TO CART</button></span>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="col-md-5">
+											<div class="special-tile">
+												<img src="sides.jfif" height="200" width="200">
+											</div>
+										</div>
+										<div class="col-md-7">
+											<div class="special-name">
+												Happy Family
+											</div>
+											<div class="special-des">
+												beef, veal, and chicken sauteed with mixed vegetables in chef's special sauce; lo mein served on the side
+											</div>
+											<hr>
+											<div >
+												<span class="price">₹499</span>
+												<span>&nbsp;&nbsp;&nbsp;</span>
+												<button class="plus-btn"><i  class="fa fa-plus " aria-hidden="true" style="color: #000"></i></button>
+												<input type="text" class="quantity" name="name" value="0" style="width: 10%; text-align: center;">
+												<button class="minus-btn"> <i class="fa fa-minus " aria-hidden="true"  style="color: #000"></i></button>
+												&nbsp;&nbsp;&nbsp;<span id="Happy Family"><button name="1" class="atc" style="color: #000">ADD TO CART</button></span>
+											</div>
+										</div>
+</div>
+									</div>
+									<div class="row">
+										<div class="col-md-6">
+											<div class="col-md-5">
+												<div class=" special-tile">
+													<img src="noodles.jfif" height="200" width="200">
+												</div>
+
+											</div>
+											<div class="col-md-7">
+												<div class="special-name">
+													Sesame Chicken
+												</div>
+												<div class="special-des">
+													with choice of string bean, string bean chicken, string bean beef, beef onions, moo shu vegetable
+												</div>
+												<hr>
+												<div >
+													<span class="price">₹339</span>
+													<span>&nbsp;&nbsp;&nbsp;</span>
+													<button class="plus-btn"><i  class="fa fa-plus " aria-hidden="true" style="color: #000"></i></button>
+													<input type="text" class="quantity" name="name" value="0" style="width: 10%; text-align: center;">
+													<button class="minus-btn"> <i class="fa fa-minus " aria-hidden="true"  style="color: #000"></i></button>
+													&nbsp;&nbsp;&nbsp;<span id="Sesame Chicken"><button name="2" class="atc" style="color: #000">ADD TO CART</button></span>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="col-md-5">
+												<div class=" special-tile">
+													<img src="lunch.jfif" height="200" width="200">
+												</div>
+
+
+											</div>
+											<div class="col-md-7">
+												<div class="special-name">
+													Orange Chicken combo
+												</div>
+												<div class="special-des">
+													beef, veal, and chicken sauteed with mixed vegetables in chef's special sauce; lo mein served on the side
+												</div>
+												<hr>
+												<div >
+													<span class="price">₹489</span>
+													<span>&nbsp;&nbsp;&nbsp;</span>
+													<button class="plus-btn"><i  class="fa fa-plus " aria-hidden="true" style="color: #000"></i></button>
+													<input type="text" class="quantity" name="name" value="0" style="width: 10%; text-align: center;">
+													<button class="minus-btn"> <i class="fa fa-minus " aria-hidden="true"  style="color: #000"></i></button>
+													&nbsp;&nbsp;&nbsp;<span id="Orange Chicken combo"><button name="3" class="atc" style="color: #000">ADD TO CART</button></span>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-md-6">
+											<div class="col-md-5">
+												<div class="special-tile">
+													<img src="vegetables.jfif" height="200" width="200">
+												</div>
+												
+
+											</div>
+											<div class="col-md-7">
+												<div class="special-name">
+													Vegetable Tempura
+												</div>
+												<div class="special-des">
+													with choice of string bean, string bean chicken, string bean beef, beef onions, moo shu vegetable
+												</div>
+												<hr>
+												<div >
+													<span class="price">₹299</span>
+													<span>&nbsp;&nbsp;&nbsp;</span>
+													<button class="plus-btn"><i  class="fa fa-plus " aria-hidden="true" style="color: #000"></i></button>
+													<input type="text" class="quantity" name="name" value="0" style="width: 10%; text-align: center;">
+													<button class="minus-btn"> <i class="fa fa-minus " aria-hidden="true"  style="color: #000"></i></button>
+													&nbsp;&nbsp;&nbsp;<span id="Vegetable Tempura"><button name="4" class="atc" style="color: #000">ADD TO CART</button></span>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="col-md-5">
+												<div class="special-tile">
+													<img src="fried.jfif" height="200" width="200">
+												</div>
+
+
+											</div>
+											<div class="col-md-7">
+												<div class="special-name">
+													Chicken Biryani
+												</div>
+												<div class="special-des">
+													beef, veal, and chicken sauteed with mixed vegetables in chef's special sauce; lo mein served on the side
+												</div>
+												<hr>
+												<div >
+													<span class="price">₹329</span>
+													<span>&nbsp;&nbsp;&nbsp;</span>
+													<button class="plus-btn"><i  class="fa fa-plus " aria-hidden="true" style="color: #000"></i></button>
+													<input type="text" class="quantity" name="name" value="0" style="width: 10%; text-align: center;">
+													<button class="minus-btn" > <i class="fa fa-minus " aria-hidden="true"  style="color: #000"></i></button>
+													&nbsp;&nbsp;&nbsp;<span id="Chicken Biryani"><button name="5" class="atc" style="color: #000">ADD TO CART</button></span>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-md-6">
+											<div class="col-md-5">
+												<div class="special-tile">
+													<img src="fried.jfif" height="200" width="200">
+												</div>
+												
+											</div>
+											<div class="col-md-7">
+												<div class="special-name">
+													Panneer Biryani
+												</div>
+												<div class="special-des">
+													with choice of string bean, string bean chicken, string bean beef, beef onions, moo shu vegetable
+												</div>
+												<hr>
+												<div >
+													<span class="price">₹289</span>
+													<span>&nbsp;&nbsp;&nbsp;</span>
+													<button class="plus-btn"><i  class="fa fa-plus " aria-hidden="true" style="color: #000"></i></button>
+													<input type="text" class="quantity" name="name" value="0" style="width: 10%; text-align: center;">
+													<button class="minus-btn"> <i class="fa fa-minus " aria-hidden="true"  style="color: #000"></i></button>
+													&nbsp;&nbsp;&nbsp;<span id="Panneer Biryani"><button name="6" class="atc" style="color: #000">ADD TO CART</button></span>
+												</div>
+
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="col-md-5">
+												<div class="special-tile">
+													<img src="sand.jfif" height="200" width="200">
+												</div>
+												
+
+											</div>
+											<div class="col-md-7">
+												<div class="special-name">
+													Grilled Panneer Cheese Sandwich
+												</div>
+												<div class="special-des">
+													beef, veal, and chicken sauteed with mixed vegetables in chef's special sauce; lo mein served on the side
+												</div>
+												<hr>
+												<div >
+													<span class="price">₹359</span>
+													<span>&nbsp;&nbsp;&nbsp;</span>
+													<button class="plus-btn"><i  class="fa fa-plus " aria-hidden="true" style="color: #000"></i></button>
+													<input type="text" class="quantity" name="name" value="0" style="width: 10%; text-align: center;">
+													<button class="minus-btn"> <i class="fa fa-minus " aria-hidden="true"  style="color: #000"></i></button>
+													&nbsp;&nbsp;&nbsp;<span id="Grilled Panneer Cheese Sandwich"><button name="7" class="atc" style="color: #000">ADD TO CART</button></span>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-md-6">
+											<div class="col-md-5">
+												<div class="special-tile">
+													<img src="soup.jfif" height="200" width="200">
+												</div>
+												
+
+											</div>
+											<div class="col-md-7">
+												<div class="special-name">
+													Thai Curry With Rice
+												</div>
+												<div class="special-des">
+													with choice of string bean, string bean chicken, string bean beef, beef onions, moo shu vegetable
+												</div>
+												<hr>
+												<div >
+													<span class="price">₹299</span>
+													<span>&nbsp;&nbsp;&nbsp;</span>
+													<button class="plus-btn"><i  class="fa fa-plus " aria-hidden="true" style="color: #000"></i></button>
+													<input type="text" class="quantity" name="name" value="0" style="width: 10%; text-align: center;">
+													<button class="minus-btn" > <i class="fa fa-minus " aria-hidden="true"  style="color: #000"></i></button>
+													&nbsp;&nbsp;&nbsp;<span id="Thai Curry With Rice"><button name="8" class="atc" class="atc" style="color: #000">ADD TO CART</button></span>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="col-md-5">
+												<div class=" special-tile">
+													<img src="dinner.jfif" height="200" width="200">
+												</div>
+												
+
+											</div>
+											<div class="col-md-7">
+												<div class="special-name">
+													Panneer Sizzler
+												</div>
+												<div class="special-des">
+													beef, veal, and chicken sauteed with mixed vegetables in chef's special sauce; lo mein served on the side
+												</div>
+												<hr>
+												<div >
+													<span class="price">₹599</span>
+													<span>&nbsp;&nbsp;&nbsp;</span>
+													<button class="plus-btn"><i  class="fa fa-plus " aria-hidden="true" style="color: #000"></i></button>
+													<input type="text" class="quantity" name="name" value="0" style="width: 10%; text-align: center;">
+													<button class="minus-btn" > <i class="fa fa-minus " aria-hidden="true"  style="color: #000"></i></button>
+													&nbsp;&nbsp;&nbsp;<span id="Panneer Sizzler"><button name="9" class="atc" style="color: #000">ADD TO CART</button></span>
+												</div>
+											</div>
+										</div>
+
+									</div>
+									
+								</div>
+
+							</div>
+							<center><button id="ptc"  style="color: #000"> Proceed to checkout</button></center>
+							<div>
+								<table id="bill" align="center">
+
+								</table>
+							</div>
+							<div class="afterbill" style="text-align: center;">
+								<hr align="center" width="400">
+							</div>
+							<footer class="panel-footer">
+								<div class="container">
+									<div class="row">
+										<section class="col-sm-4" id="hours">
+											<span>HOURS:</span><br>
+											Sun-Thurs : 11:15am to 10pm<br>
+											Fri:11:15am to 12:30pm<br>
+											Saturday closed
+											<hr class="visible-xs">
+										</section>
+										<section class="col-sm-4" id="address">
+											<span>ADDRESS:</span><br>
+											Behind SPIT COLLEGE<br>
+											OLD DN NAGAR,ANDHERI WEST<br>
+											<p>* Delivery area within 3-4 miles, with minimum order of $20 plus $3 charge for all deliveries.</p>
+											<hr class="visible-xs">
+										</section>
+										<section class="col-sm-4" id="quotes">
+											<span>"The best Chinese restaurant I've been to! And<br> that's saying a lot, since I've been to many!"</span><br><br>
+											<span>"Amazing food! Great service! Couldn't ask for more!<br> I'll be back again and again!"</span>			
+											<hr class="visible-xs">
+										</section>
+									</div>
+									<p style="text-align: center;">&copy; Copyright SPCE CAFETERIA 2019 | Admin<p>
+									</footer>
+								</body>
+								<script type="text/javascript" src="script.js"></script>
+								</html>
